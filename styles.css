@@ -1,0 +1,39 @@
+/* styles.css */
+
+/* Global styles for the body element */
+body {
+  font-family: sans-serif;
+  background-color: powderblue;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Styles for all H1 headings */
+h1 {
+  color: blue;
+  text-align: center;
+  border-bottom: 2px solid gray;
+  padding-bottom: 10px;
+}
+
+/* Styles for all paragraph elements */
+p {
+  color: red;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Styles for a specific class named 'highlight' */
+.highlight {
+  background-color: yellow;
+  font-weight: bold;
+}
+
+/* Styles for an element with the ID 'main-content' */
+#main-content {
+  width: 80%;
+  margin: 20px auto;
+  padding: 15px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
